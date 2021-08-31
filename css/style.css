@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik&family=Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Snigle-font:var(--Snigle-font);
+    --Rubik:var(--Rubik);
+    --Patua:var(--Patua);
+    --Lobster:var(--Lobster);
+    --light-black: #2e2c2caf;
+}
+
+header a {
+    font-family: var(--Snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .nav-link:hover {
+    color: #e51b24;
+}
+
+
+/* section1 */
+
+.section-1 {
+    padding: 20vmin 0;
+}
+
+.section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p{
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Section2 */
+
+.section-2 .tours>h1{
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+}
+
+.tours>p {
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+
+.tours .cards .card {
+    width: 22rem;
+    margin: 3vmin;
+}
+
+
+
+
+
+/* section 3 Team*/
+
+.section-3 .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-3 .team {
+    padding: 10vmin 4vmin;
+}
+
+.section-3 .card {
+    width: 22rem;
+    margin-top: 10vmin;
+}
+
+.section-3 .card .card-text {
+    padding: 0.5em;
+}
+
+.team .btn {
+    font-family: var(--Rubik);
+    font-weight: bold;
+}
+
+.team .btn:hover{
+    background-color: #e51b24;
+    color: white;
+}
+
+
+.border-radius {
+    border-radius: 340px;
+    width: 60%;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background-color: #e51b24;
+    border: none;
+}
+
+footer .column i {
+    color: #e51b24;
+}
+
+footer .column i + i {
+    padding: 0 0.5em;
+}
